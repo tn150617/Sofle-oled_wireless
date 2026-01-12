@@ -38,14 +38,14 @@ layers:
   - {t: ;, h: RIGHT WIN}
   - ''''
   - LSHFT
-  - {t: Z, h: Ctl+Z}
-  - {t: X, h: Ctl+X}
-  - {t: C, h: Ctl+C}
-  - {t: V, h: Ctl+V}
+  - Z
+  - X
+  - C
+  - V
   - B
   - MUTE
   - ''
-  - {t: N, h: Ctl+N}
+  - N
   - M
   - ','
   - .
