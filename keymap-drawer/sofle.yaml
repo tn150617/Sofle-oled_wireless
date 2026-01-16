@@ -85,7 +85,7 @@ layers:
   - {t: UP ARROW, h: Ctl+UP ARROW}
   - {t: ▽, type: trans}
   - {t: HOME, h: Ctl+HOME}
-  - F12
+  - {t: PAGE UP, h: Ctl+PAGE UP}
   - TAB
   - Sft+Ctl+TAB
   - LEFT
@@ -97,7 +97,7 @@ layers:
   - {t: DOWN ARROW, h: Ctl+DOWN}
   - {t: RIGHT, h: Ctl+RIGHT}
   - {t: END, h: Ctl+END}
-  - '|'
+  - {t: PAGE DOWN, h: Ctl+PAGE DOWN}
   - LEFT SHIFT
   - '='
   - '-'
