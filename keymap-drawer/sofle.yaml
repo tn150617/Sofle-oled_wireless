@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - Gui+Sft+S
+  - TAB
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - BSPC
-  - Alt+TAB
+  - {t: LEFT ALT, h: toggle}
   - {t: A, h: LEFT WIN}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -62,7 +62,7 @@ layers:
   - RALT
   - RGUI
   lower:
-  - A
+  - Gui+Sft+S
   - F1
   - F2
   - F3
@@ -75,7 +75,7 @@ layers:
   - F10
   - F11
   - '`'
-  - {t: ▽, type: trans}
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: HOME, h: Ctl+HOME}
   - F12
   - TAB
-  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
   - LEFT
   - DOWN ARROW
   - RIGHT
