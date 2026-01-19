@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - BSPC
-  - {t: LEFT ALT, h: toggle}
+  - {t: ▽, type: trans}
   - {t: A, h: LEFT WIN}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - {t: LEFT ALT, h: toggle}
   - ''
   - N
   - M
@@ -58,7 +58,7 @@ layers:
   - RET
   - SPACE
   - raise
-  - RCTRL
+  - TAB
   - RALT
   - RGUI
   lower:
