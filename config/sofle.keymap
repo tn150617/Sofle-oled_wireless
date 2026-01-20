@@ -94,11 +94,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp LG(LS(S))   &kp F1           &kp F2     &kp F3          &kp F4     &kp F5                      &kp F6     &kp F7             &kp F8                     &kp F9               &kp F10            &kp F11
-&kp GRAVE       &kp LC(TAB)      &trans     &kp UP_ARROW    &trans     &trans                      &kp MINUS  &trans             &mt LC(UP_ARROW) UP_ARROW  &trans               &mt LC(HOME) HOME  &mt LC(PAGE_UP) PAGE_UP
-&kp TAB         &kp LS(LC(TAB))  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans                      &kp UNDER  &mt LC(LEFT) LEFT  &mt LC(DOWN) DOWN_ARROW    &mt LC(RIGHT) RIGHT  &mt LC(END) END    &mt LC(PAGE_DOWN) PAGE_DOWN
-&kp LEFT_SHIFT  &kp EQUAL        &kp MINUS  &kp KP_PLUS     &kp LBRC   &kp RBRC  &trans    &trans  &kp LBKT   &kp RBKT           &kp SEMI                   &kp COLON            &kp BSLH           &kp K_CONTEXT_MENU
-                                 &trans     &trans          &trans     &trans    &trans    &trans  &trans     &trans             &trans                     &trans
+&kp LG(LS(S))                &kp F1         &kp F2     &kp F3          &kp F4     &kp F5                      &kp F6     &kp F7             &kp F8                     &kp F9               &kp F10            &kp F11
+&mt LC(PAGE_UP) PAGE_UP      &kp PG_UP      &trans     &kp UP_ARROW    &trans     &trans                      &kp MINUS  &trans             &mt LC(UP_ARROW) UP_ARROW  &trans               &mt LC(HOME) HOME  &mt LC(PAGE_UP) PAGE_UP
+&mt LC(PAGE_DOWN) PAGE_DOWN  &kp PAGE_DOWN  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans                      &kp UNDER  &mt LC(LEFT) LEFT  &mt LC(DOWN) DOWN_ARROW    &mt LC(RIGHT) RIGHT  &mt LC(END) END    &mt LC(PAGE_DOWN) PAGE_DOWN
+&kp LEFT_SHIFT               &kp EQUAL      &kp MINUS  &kp KP_PLUS     &kp LBRC   &kp RBRC  &trans    &trans  &kp LBKT   &kp RBKT           &kp SEMI                   &kp COLON            &kp BSLH           &kp K_CONTEXT_MENU
+                                            &trans     &trans          &trans     &trans    &trans    &trans  &trans     &trans             &trans                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
