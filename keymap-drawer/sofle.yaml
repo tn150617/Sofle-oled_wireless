@@ -74,8 +74,8 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
-  - Ctl+TAB
+  - {t: PAGE UP, h: Ctl+PAGE UP}
+  - PG UP
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
@@ -86,8 +86,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: HOME, h: Ctl+HOME}
   - {t: PAGE UP, h: Ctl+PAGE UP}
-  - TAB
-  - Sft+Ctl+TAB
+  - {t: PAGE DOWN, h: Ctl+PAGE DOWN}
+  - PAGE DOWN
   - LEFT
   - DOWN ARROW
   - RIGHT
